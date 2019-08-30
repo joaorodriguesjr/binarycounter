@@ -1,0 +1,62 @@
+html {
+    box-sizing: border-box;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(#272727, #050505);
+    background-repeat: no-repeat;
+}
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.decimal-display, .binary-display {
+    display: flex;
+    margin-left: 10px;
+}
+.decimal-display {
+    margin-bottom: 100px;
+}
+.digit {
+    width: 70px;
+    height: 100px;
+    position: relative;
+}
+.digit-segment {
+    width: 70px;
+    height: 100px;
+    position: absolute;
+}
+.segment-01 {
+    background-image: url("./images/digit-segment-01.svg");
+}
+.segment-02 {
+    background-image: url("./images/digit-segment-02.svg");
+}
+.segment-03 {
+    background-image: url("./images/digit-segment-03.svg");
+}
+.segment-04 {
+    background-image: url("./images/digit-segment-04.svg");
+}
+.segment-05 {
+    background-image: url("./images/digit-segment-05.svg");
+}
+.segment-06 {
+    background-image: url("./images/digit-segment-06.svg");
+}
+.segment-07 {
+    background-image: url("./images/digit-segment-07.svg");
+}
+.segment-08 {
+    background-image: url("./images/digit-segment-08.svg");
+}
