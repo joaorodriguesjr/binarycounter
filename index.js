@@ -1,6 +1,6 @@
-import { Presentation } from "./Presentation";
-import { Counter } from "./Counter";
-import { TreeBuilder } from "./TreeBuilder";
+import { Presentation } from "./Presentation.js";
+import { Counter } from "./Counter.js";
+import { TreeBuilder } from "./TreeBuilder.js";
 
 window.onload = () => {
   const treeBuilder = new TreeBuilder(document);
