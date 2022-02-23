@@ -60,3 +60,16 @@ body {
 .segment-08 {
     background-image: url("./images/digit-segment-08.svg");
 }
+@media (max-width: 600px) {
+    .segment-01, .segment-02, .segment-03, .segment-04, .segment-05, .segment-06, .segment-07, .segment-08 {
+        background-size: 35px 50px;
+    }
+    .digit, .digit-segment {
+        width: 35px;
+        height: 50px;
+    }
+
+    .decimal-display {
+        margin-bottom: 50px;
+    }
+}
